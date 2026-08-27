@@ -1,0 +1,11 @@
+# NativeAI Zero-to-Hero 课程依赖清单
+# 请务必在虚拟环境(.venv)中安装，不要装到系统全局！
+# 安装命令见 README.md
+numpy
+matplotlib
+pandas
+scikit-learn
+fastapi
+uvicorn
+requests
+pydantic
