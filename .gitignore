@@ -1,0 +1,26 @@
+# ===== 虚拟环境沙盒（绝不入库，避免污染） =====
+.venv/
+venv/
+env/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== Jupyter 自动检查点 =====
+.ipynb_checkpoints/
+
+# ===== 课程运行时临时产物（notebook 会重新生成） =====
+*.py
+Dockerfile
+main.py
+*.db
+*.sqlite
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
